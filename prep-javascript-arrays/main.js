@@ -16,7 +16,7 @@ console.log('added element to front', languagesArray);
 languagesArray.shift();
 console.log('removed first element', languagesArray);
 
-var thirdElement = 'javascript';
+var thirdElement = languagesArray[2];
 console.log('3rd element in languageArray:', thirdElement);
 
 var arrayLength = languagesArray.length;
