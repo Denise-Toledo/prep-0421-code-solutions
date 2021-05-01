@@ -39,7 +39,7 @@ var subtract = subtractTwoNumbers(22, 7);
 console.log('subtractTwoNumers', subtract);
 
 function getCircleCircumference(radius) {
-  return 2 * Math.PI * 5;
+  return 2 * Math.PI * radius;
 }
 var circle = getCircleCircumference(5);
 console.log('circleCircumference', circle);
@@ -51,7 +51,7 @@ var FullName = getFullName('Denise ', 'Toledo');
 console.log('Name:', FullName);
 
 function cube(number) {
-  var result = (number) * (number) * 5;
+  var result = (number) * (number) * (number);
   return result;
 }
 var Cube = cube(5);
